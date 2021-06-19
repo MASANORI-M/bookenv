@@ -104,7 +104,9 @@ const Home = () => {
               </p>
             </div>
             <Link href="/account/AccountTop">
-              <Button childern="READY GO!" size='lg' />
+              <a href="/account/AccountTop">
+                <Button childern="READY GO!" size='lg' />
+              </a>
             </Link>
           </div>
         </div>
