@@ -10,14 +10,20 @@ const Header = () => {
             <h1 className="my-0 mx-0 px-0 py-0 text-4xl">
                 <a href="/">Valuable Book Evaluation</a>
             </h1>
-            <nav className="my-0 mr-0 ml-auto">
-                <ul className="mx-0 my-0 flex">
-                    <Link href="/about/About">
-                        <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">ABOUT</a></li>
-                    </Link>
+            <nav className="ml-auto">
+                <ul className="flex">
+                    <li className="my-5 ml-14 mr-0 text-xl text-gray-600">
+                        <Link href="/about/About">
+                            <a>
+                                ABOUT
+                            </a>
+                        </Link>
+                    </li>
                     <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">HOW</a></li>
                     <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">EVALUATION</a></li>
-                    <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">BOOK LIST</a></li>
+                    <Link href="/booklist/BookList">
+                        <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">BOOK LIST</a></li>
+                    </Link>
                     <li className="my-0 ml-14 mr-0 text-xl cursor-pointer">
                         <Menues />
                     </li>
