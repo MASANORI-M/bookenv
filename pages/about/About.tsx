@@ -100,8 +100,10 @@ const About = () => {
                 </p>
             </div>
             <div className="text-center bg-gray-100 pb-16">
-                <Link href="/account/AccountTop">   
-                    <Button size='lg'>READY GO!</Button>
+                <Link href="/account/AccountTop">
+                    <a>   
+                        <Button size='lg' childern='READY GO!' />
+                    </a>
                 </Link>
             </div>
         </>
