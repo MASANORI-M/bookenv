@@ -35,7 +35,7 @@ const BookListCard = (props) => {
                     {props.publishedDate}
                 </p>
                 <div className="flex items-center justify-end mt-4 top-auto">
-                    <button className=" bg-blue-600 text-gray-200 px-2 py-2 rounded-md ">評価を見る</button>
+                    <button className=" bg-blue-600 text-gray-200 px-2 py-2 rounded-md ">を見る</button>
                 </div>
             </div>
         </div>
