@@ -19,7 +19,13 @@ const Header = () => {
                             </a>
                         </Link>
                     </li>
-                    <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">HOW</a></li>
+                    <li className="my-5 ml-14 mr-0 text-xl text-gray-600">
+                        <Link href="/how/How">
+                            <a>
+                                HOW
+                            </a>
+                        </Link>
+                    </li>
                     <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">EVALUATION</a></li>
                     <Link href="/booklist/BookList">
                         <li className="my-5 ml-14 mr-0 text-xl"><a className="text-gray-600" href="/">BOOK LIST</a></li>
