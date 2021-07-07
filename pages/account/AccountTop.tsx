@@ -1,13 +1,15 @@
 import React from 'react';
 import Image from 'next/image';
+import link from 'next/link';
 
 import SecondButton from '../../components/button/SecondButton';
+import AccountSecond from './AccountSecond';
 
 const AccountTop = () => {
     return (
-        <div className="h-screen flex items-center relative">
+        <div className="container h-screen flex items-center relative">
+        <Image layout="fill" src="/home.jpg" alt=""></Image>
             <div  className="bg-black z-0 bg-opacity-25" >
-                <Image layout="fill" src="/home.jpg" alt=""></Image>
                 <div className="bg-black absolute inset-0 opacity-40"></div>
             </div>
             <div className="bg-gray-300 opacity-90 text-gray-600 body-font relative w-max pb-12">
@@ -59,7 +61,9 @@ const AccountTop = () => {
                                 <input type="password" id="pass" name="password" className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-indigo-500 focus:bg-white focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" />
                             </div>
                         </div>
-                        <SecondButton childern="次へ" />
+                        <a href="./AccountSecond">
+                            <SecondButton childern="内容確認" />
+                        </a>
                     </div>
                 </div>
             </div>
